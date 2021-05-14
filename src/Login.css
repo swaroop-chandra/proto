@@ -1,0 +1,70 @@
+.login_image {
+  /* background-image: url("/public/DesktopBackground.jpg"); */
+  width: 100%;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 700px;
+  margin: 0px;
+}
+
+.banner_contents {
+  margin-left: 30px;
+  padding: 140px 30px 30px 600px;
+  /* height: 190px; */
+}
+
+.banner_title {
+  font-size: 6rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.button12 {
+  display: flex;
+  width: 112%;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  text-transform: uppercase;
+  background-color: #4385f4;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.p12 {
+  color: #ffffff;
+  flex: 0.8;
+  margin: 15px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.image1 {
+  flex: 0.2;
+  background-color: #ffffff;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+}
+
+.row {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.row > a {
+  text-decoration: none;
+}

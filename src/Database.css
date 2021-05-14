@@ -1,0 +1,153 @@
+.database {
+  padding: 20px 30px;
+  text-transform: capitalize;
+}
+
+.header {
+  display: flex;
+}
+
+.p1 {
+  font-size: 30px;
+  color: #4385f4;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.d_card1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 180px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 40px;
+  object-fit: contain;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 5px;
+}
+
+.profile_image {
+  flex: 0.1;
+  position: relative;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  margin: 21px 9px;
+}
+
+.name2 > h1 {
+  color: #4385f4;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.vertical_hr {
+  border-left: 1px solid black;
+  height: 80px;
+  margin: 5px 10px;
+  opacity: 0.2;
+}
+
+.location1 {
+  display: contents;
+  color: #a7bfe7;
+  margin: 10px 20px;
+  font-size: 16px;
+}
+
+.name2 {
+  flex: 0.2;
+  text-align: center;
+  padding: 10px;
+}
+
+.col_button {
+  padding: 20px 30px;
+}
+
+.button1 {
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: #4385f4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.col_date > h4 {
+  font-size: 10px;
+  opacity: 0.4;
+  margin-bottom: 5px;
+}
+
+.col_date {
+  flex: 0.1;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.join_date {
+  color: #4385f4;
+  background-color: #cadaf7;
+  padding: 8px 3px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0px;
+  width: 120px;
+}
+
+.col_slider {
+  margin-top: 10px;
+  flex: 0.5;
+  padding: 15px;
+}
+
+.slider1 {
+  -webkit-appearance: none;
+  height: 6px;
+  width: 96%;
+  background: lightgrey;
+  outline: none;
+}
+
+.slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: green;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.col_button {
+  flex: 0.2;
+}
+
+.slider_row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.slider_name {
+  color: green;
+  background: lightgreen;
+  padding: 10px 5px;
+  border-radius: 8px;
+  opacity: 0.6;
+}
+
+.header > a {
+  display: contents;
+}
